@@ -1,0 +1,26 @@
+If
+
+public class InstrukcjaIf {
+   public static void main(String[] args){
+       int wiek = 16;
+
+       if (wiek>18){
+           System.out.println("Pełnoletnia");}
+       else {
+       System.out.println("Niepełnoletnia");}
+   }
+}
+
+public class InstrukcjaIF {
+   public static void main (String [] args){
+       int wiek = 16;
+       if (wiek>=18){
+           System.out.println("Pełnoletni");}
+           else {
+               if(wiek>=16){
+                   System.out.println("Możesz pracować");}
+               else{
+                   System.out.println("Nie możesz nic :)");}
+               }
+           }
+       } 
