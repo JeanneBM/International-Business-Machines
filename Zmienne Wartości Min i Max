@@ -1,0 +1,40 @@
+public class Lekcja2 {
+   public static void main(String[] args){
+       //Znak
+       char zmChar = 'B';
+       System.out.println(zmChar);
+       //String
+       String zmString="Bartek";
+       System.out.println(zmString);
+       //Boolean
+       boolean zmBoolean = true;
+       System.out.println(zmBoolean);
+       //Byte
+       byte zmByte = Byte.MAX_VALUE;
+       byte zmByte2 = Byte.MIN_VALUE;
+       System.out.println("Byte: " + zmByte + " - " + zmByte2);
+       //Short
+       short zmShort = Short.MAX_VALUE;
+       short zmShort2 = Short.MIN_VALUE;
+       System.out.println("Short: " + zmShort + " - " + zmShort2);
+       //int
+       int zmInt = Integer.MAX_VALUE;
+       int zmInt2 = Integer.MIN_VALUE;
+       System.out.println("Int: " + zmInt + " - " + zmInt2);
+       //Long
+       long zmLong = Long.MAX_VALUE;
+       long zmLong2 = Long.MIN_VALUE;
+       System.out.println("Long: " + zmLong + " - " + zmLong2);
+       //Float
+       float zmFloat = Float.MAX_VALUE;
+       float zmFloat2 = Float.MIN_VALUE;
+       System.out.println("Float: " + zmFloat + " - " + zmFloat2);
+       //Double
+       double zmDouble = Double.MAX_VALUE;
+       double zmDouble2 = Double.MIN_VALUE;
+       System.out.println("Double: " + zmDouble + " - " + zmDouble2);
+
+       final int liczba=256;
+       System.out.println(liczba);
+   }
+}
